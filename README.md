@@ -34,5 +34,5 @@ url = 'https://a1.fanbook.mobi/api/bot/需要发送日志的机器人令牌/send
 遇到例如54行、56行这样的内容，把链接中令牌的位置换为自己机器人的令牌，guild_id冒号后跟服务器id，chat_id冒号后跟频道id，73行的"Url"冒号后跟**欢迎时发送的图片链接**，不需要可删除第85行  
 ![示例图片](https://fanbookwdg3.bailituya.com/i/2023/05/07/pczrkt.png)   
 **110行后的频道id全部为日志频道id，遇到错误会重启**  
-还有什么问题？  
+还有什么问题吗？  
 [点击加入问题反馈服务器](https://fanbook.mobi/LmgLJF3N "点击加入问题反馈服务器")  
