@@ -27,6 +27,7 @@ url = 'https://a1.fanbook.mobi/api/bot/需要发送日志的机器人令牌/send
 ```
 37行：  
 ```python
-    jsonfile = json.dumps({"guild_id":欢迎频道id})
+    jsonfile = json.dumps({"guild_id":服务器id})
 ```
-**第42、44修改方式同35、37行**  
+**第42、44修改方式同35、37行（服务器id和机器人令牌使用第二个服务器的）**  
+**代码默认支持两个服务器，如果只有一个服务器，删除42到48行，61行到66行，93行到109行**
