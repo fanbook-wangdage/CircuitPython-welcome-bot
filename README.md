@@ -9,10 +9,13 @@ fanbook CircuitPython welcome bot
 3.自己存一份这里的code.py，使用文本编辑器或者代码编辑器打开  
 4.修改以下代码：  
 20行：
-`    wifi.radio.connect("无线网络名称", "网络密码")`  
+```python
+wifi.radio.connect("无线网络名称", "网络密码")
+```  
 27行：  
-
-`        url = 'https://a1.fanbook.mobi/api/bot/需要发送日志的机器人令牌/sendMessage'` 
+```python
+url = 'https://a1.fanbook.mobi/api/bot/需要发送日志的机器人令牌/sendMessage'
+```  
 30行：  
 ```python
             "chat_id":需要发送日志的频道id,
