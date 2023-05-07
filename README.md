@@ -19,7 +19,7 @@ url = 'https://a1.fanbook.mobi/api/bot/需要发送日志的机器人令牌/send
 ```  
 30行：  
 ```python
-            "chat_id":需要发送日志的频道id,#(不填不会发送，不会导致问题)
+            "chat_id":需要发送日志的频道id,#(填错不会发送，不会导致问题，但是不填会报错)
 ```
 35行：  
 ```python
